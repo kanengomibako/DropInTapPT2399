@@ -1,6 +1,6 @@
 ﻿# DropInTap PT2399
 
-<img src="img/pic_DropInTapPT2399.jpg" width="30%"><br>
+<img src="img/pic_DropInTapPT2399.jpg" width="50%"><br>
 
 ディレイIC PT2399にタップテンポコントロールを追加したモジュールです。DIPパッケージのPT2399をそのまま置き換えることができます。
 
@@ -10,7 +10,7 @@
 
 ### 配線方法
 
-<img src="img/wiring_DropInTapPT2399.png" width="30%"><br>
+<img src="img/wiring_DropInTapPT2399.png" width="50%"><br>
 
 - DTime → ディレイタイムポット（50kΩ Bカーブ）
 
@@ -35,9 +35,9 @@ TapSwパッドに接続されたスイッチ（タップスイッチ）を複数
 
 | DIVスイッチ接続    | 割合  | 拍                                           |
 | ------------------ | ----- | -------------------------------------------- |
-| 電源（5V）         | 1 / 2 | <img src="img/hachibu.png" width="20%">      |
-| オープン（未接続） | 3 / 4 | <img src="img/futenhachibu.png" width="20%"> |
-| グラウンド（0V）   | 1 / 1 | <img src="img/shibu.png" width="20%">        |
+| 電源（5V）         | 1 / 2 | <img src="img/hachibu.png" width="50%">      |
+| オープン（未接続） | 3 / 4 | <img src="img/futenhachibu.png" width="50%"> |
+| グラウンド（0V）   | 1 / 1 | <img src="img/shibu.png" width="50%">        |
 
 前回のタップから1秒以上間隔があいてタップした場合、そのタップは1回目としてカウントされます。タップを1回だけ行った場合、LEDの点滅タイミングだけがリセットされ、前回入力していたテンポがそのまま残ります。
 
